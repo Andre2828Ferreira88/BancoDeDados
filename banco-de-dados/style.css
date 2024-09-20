@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 56px auto;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-left: 2%;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    gap: 8px;
+
+    background-color: #ddd;
+
+    padding: 16px;
+}
+
+.column-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.row-container {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.div-gap {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.input-dia {
+    width: 100%;
+}
+
+.input-mes {
+    width: 100%;
+}
+
+.input-field {
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+        
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-container {
+    width: 100%;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ccc
+}
+
+th {
+    background-color: #ddd;
+}
+
+.search-button {
+    background-color: #4e88cf;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    border-radius: 8px;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+#resultado {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.quantidade-registros {
+    text-align: center;
+    color: #888;
+    margin-top: 24px;
+}
+
+.curso {
+    width: 20%; /* ou qualquer outra largura que desejar */
+}
+
+.fill{
+    width: 100%;
+}
+.dia {
+    width: 15%;
+}
+
+.hora {
+    width: 15%;
+}
+
+.mes {
+    width: 15%;
+}
+
+.cpf {
+    width: 35%;
+}
